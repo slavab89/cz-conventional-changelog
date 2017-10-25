@@ -74,10 +74,11 @@ module.exports = function engine(options) {
         let scope = answers.scope.trim();
         scope = scope ? `(${answers.scope.trim()})` : '';
 
-        const issues = wrap(answers.issues, wrapOptions);
+        let issues = wrap(answers.issues, wrapOptions);
+        issues = issues ? `${issues} ` : issues;
 
         // Hard limit this line
-        const head = `${answers.type}${scope}: ${issues} ${answers.subject.trim()}`.slice(0, maxLineWidth);
+        const head = `${answers.type}${scope}: ${issues}${answers.subject.trim()}`.slice(0, maxLineWidth);
 
         // Wrap these lines at 100 characters
         const body = wrap(answers.body, wrapOptions);
