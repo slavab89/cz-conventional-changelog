@@ -56,7 +56,7 @@ module.exports = function engine(options) {
         }, {
           type: 'input',
           name: 'issues',
-          message: 'Add issue references (e.g. "fix #123", "re #123".):\n',
+          message: 'Add issue references (e.g. "ABC-123", "ABC-123 #<COMMAND>".):\n',
           when: function(answers) {
             return answers.isIssueAffected;
           }
