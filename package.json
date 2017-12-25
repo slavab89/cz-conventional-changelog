@@ -1,6 +1,6 @@
 {
   "name": "@slavab89/cz-conventional-changelog",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Commitizen adapter following the conventional-changelog with a slight tweak",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "commitizen": "2.9.6"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
