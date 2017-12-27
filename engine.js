@@ -74,8 +74,7 @@ module.exports = function engine(options) {
         let scope = answers.scope.trim();
         scope = scope ? `(${answers.scope.trim()})` : '';
 
-        let issues = wrap(answers.issues, wrapOptions);
-        issues = issues ? `${issues} ` : issues;
+        const issues = answers.issues ? wrap(answers.issues, wrapOptions) : '';
 
         // Hard limit this line
         const head = `${answers.type}${scope}: ${issues}${answers.subject.trim()}`.slice(0, maxLineWidth);
