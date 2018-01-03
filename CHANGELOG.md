@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1.2"></a>
+## [2.1.2](https://github.com/slavab89/cz-conventional-changelog/compare/v2.1.1...v2.1.2) (2018-01-03)
+
+
+### Bug Fixes
+
+* Add missing space between issues and subject ([b271aa8](https://github.com/slavab89/cz-conventional-changelog/commit/b271aa8))
+
+
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/slavab89/cz-conventional-changelog/compare/v2.1.0...v2.1.1) (2017-12-27)
 

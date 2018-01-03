@@ -1,6 +1,6 @@
 {
   "name": "@slavab89/cz-conventional-changelog",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Commitizen adapter following the conventional-changelog with a slight tweak",
   "main": "index.js",
   "scripts": {
